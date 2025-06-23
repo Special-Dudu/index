@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyage des Mots - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Voyage des Mots</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#blog-section">Blog</a></li>
+                    <li><a href="#about-us">À Propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h2>Explorez le monde des mots et de la culture française</h2>
+                <p>Votre guide pour maîtriser le français et découvrir la richesse de sa culture.</p>
+                <a href="#blog-section" class="btn">Lire nos articles</a>
+            </div>
+        </section>
+
+        <section id="blog-section" class="blog-preview-section">
+            <div class="container">
+                <h2>Notre Blog Spécial : Français & Culture</h2>
+                <div class="blog-posts">
+                    <article class="blog-post">
+                        <h3><a href="blog-post-1.html">Les expressions françaises à connaître absolument</a></h3>
+                        <p class="post-meta">Publié le 20 juin 2025 par L'Équipe Voyage des Mots</p>
+                        <p>Plongez dans le monde fascinant des expressions idiomatiques françaises qui vous feront sonner comme un natif...</p>
+                        <a href="blog-post-1.html" class="read-more">Lire la suite</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <h3><a href="blog-post-2.html">Voyage culinaire : Les plats incontournables de la France</a></h3>
+                        <p class="post-meta">Publié le 15 juin 2025 par L'Équipe Voyage des Mots</p>
+                        <p>De la quiche lorraine au coq au vin, découvrez les saveurs authentiques de la gastronomie française...</p>
+                        <a href="blog-post-2.html" class="read-more">Lire la suite</a>
+                    </article>
+
+                    <article class="blog-post">
+                        <h3><a href="blog-post-3.html">Apprendre le français : Astuces et ressources pour débutants</a></h3>
+                        <p class="post-meta">Publié le 10 juin 2025 par L'Équipe Voyage des Mots</p>
+                        <p>Commencez votre voyage linguistique avec nos conseils pratiques et les meilleures applications pour apprendre le français...</p>
+                        <a href="blog-post-3.html" class="read-more">Lire la suite</a>
+                    </article>
+                    </div>
+                <div class="all-posts-link">
+                    <a href="blog.html" class="btn">Voir tous les articles</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-us" class="about-us-section">
+            <div class="container">
+                <h2>À Propos de Voyage des Mots</h2>
+                <p>Voyage des Mots est une plateforme dédiée à tous les passionnés de la langue et de la culture française. Notre mission est de rendre l'apprentissage du français accessible, amusant et enrichissant pour tous, quel que soit votre niveau. Nous partageons des conseils pratiques, des découvertes culturelles et des astuces pour vous aider à progresser.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contactez-nous</h2>
+                <p>Des questions ? Des suggestions ? N'hésitez pas à nous envoyer un message.</p>
+                <form action="#" method="POST">
+                    <input type="text" placeholder="Votre Nom" required>
+                    <input type="email" placeholder="Votre Email" required>
+                    <textarea placeholder="Votre Message" rows="5" required></textarea>
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Voyage des Mots. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
